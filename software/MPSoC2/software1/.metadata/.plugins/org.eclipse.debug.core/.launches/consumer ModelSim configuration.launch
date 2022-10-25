@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="com.altera.sbtgui.launch.modelsim.Nios2ModelsimLaunchConfiguration">
+<stringAttribute key="elfFile" value="E:\Semester_06\CO503_Advanced_Embedded_Systems\Practicals\Practical_3_MPSoC_Design\MPSoC2\MPSoC\software1\consumer\consumer.elf"/>
+<stringAttribute key="modelSimPath" value="C:\win32aloem"/>
+<stringAttribute key="org.eclipse.cdt.launch.DEBUGGER_ID" value="com.altera.debug.cdi.gdb.plugin.Nios2GdbCdiDebugger"/>
+<stringAttribute key="org.eclipse.cdt.launch.DEBUGGER_START_MODE" value="run"/>
+<booleanAttribute key="org.eclipse.cdt.launch.DEBUGGER_STOP_AT_MAIN" value="true"/>
+<stringAttribute key="org.eclipse.cdt.launch.PROGRAM_NAME" value="consumer.elf"/>
+<stringAttribute key="org.eclipse.cdt.launch.PROJECT_ATTR" value="consumer"/>
+<stringAttribute key="spdPath" value="E:\Semester_06\CO503_Advanced_Embedded_Systems\Practicals\Practical_3_MPSoC_Design\MPSoC2\MPSoC\MPSoC_tb.spd"/>
+</launchConfiguration>

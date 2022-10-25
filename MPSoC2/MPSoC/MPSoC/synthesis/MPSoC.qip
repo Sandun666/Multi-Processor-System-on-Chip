@@ -1,0 +1,197 @@
+set_global_assignment -entity "MPSoC" -library "MPSoC" -name IP_TOOL_NAME "qsys"
+set_global_assignment -entity "MPSoC" -library "MPSoC" -name IP_TOOL_VERSION "12.1"
+set_global_assignment -entity "MPSoC" -library "MPSoC" -name IP_TOOL_ENV "qsys"
+set_global_assignment -library "MPSoC" -name SOPCINFO_FILE [file join $::quartus(qip_path) "../../MPSoC.sopcinfo"]
+set_instance_assignment -entity "MPSoC" -library "MPSoC" -name SLD_INFO "QSYS_NAME MPSoC HAS_SOPCINFO 1 GENERATION_ID 1649303098"
+set_global_assignment -library "MPSoC" -name MISC_FILE [file join $::quartus(qip_path) "../../MPSoC.cmp"]
+set_global_assignment -name SYNTHESIS_ONLY_QIP ON
+set_global_assignment -library "MPSoC" -name MISC_FILE [file join $::quartus(qip_path) "../../MPSoC.qsys"]
+
+set_global_assignment -library "MPSoC" -name VERILOG_FILE [file join $::quartus(qip_path) "MPSoC.v"]
+set_global_assignment -library "MPSoC" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/MPSoC_irq_mapper_001.sv"]
+set_global_assignment -library "MPSoC" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/MPSoC_irq_mapper.sv"]
+set_global_assignment -library "MPSoC" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/altera_merlin_arbitrator.sv"]
+set_global_assignment -library "MPSoC" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/MPSoC_rsp_xbar_mux_001.sv"]
+set_global_assignment -library "MPSoC" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/MPSoC_rsp_xbar_mux.sv"]
+set_global_assignment -library "MPSoC" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/MPSoC_rsp_xbar_demux_006.sv"]
+set_global_assignment -library "MPSoC" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/MPSoC_rsp_xbar_demux_004.sv"]
+set_global_assignment -library "MPSoC" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/MPSoC_rsp_xbar_demux.sv"]
+set_global_assignment -library "MPSoC" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/MPSoC_cmd_xbar_mux_004.sv"]
+set_global_assignment -library "MPSoC" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/MPSoC_cmd_xbar_mux.sv"]
+set_global_assignment -library "MPSoC" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/MPSoC_cmd_xbar_demux_001.sv"]
+set_global_assignment -library "MPSoC" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/MPSoC_cmd_xbar_demux.sv"]
+set_global_assignment -library "MPSoC" -name VERILOG_FILE [file join $::quartus(qip_path) "submodules/altera_reset_controller.v"]
+set_global_assignment -library "MPSoC" -name VERILOG_FILE [file join $::quartus(qip_path) "submodules/altera_reset_synchronizer.v"]
+set_global_assignment -library "MPSoC" -name SDC_FILE [file join $::quartus(qip_path) "submodules/altera_reset_controller.sdc"]
+set_global_assignment -library "MPSoC" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/altera_merlin_traffic_limiter.sv"]
+set_global_assignment -library "MPSoC" -name VERILOG_FILE [file join $::quartus(qip_path) "submodules/altera_avalon_st_pipeline_base.v"]
+set_global_assignment -library "MPSoC" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/MPSoC_id_router_012.sv"]
+set_global_assignment -library "MPSoC" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/MPSoC_id_router_008.sv"]
+set_global_assignment -library "MPSoC" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/MPSoC_id_router_006.sv"]
+set_global_assignment -library "MPSoC" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/MPSoC_id_router_005.sv"]
+set_global_assignment -library "MPSoC" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/MPSoC_id_router_004.sv"]
+set_global_assignment -library "MPSoC" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/MPSoC_id_router.sv"]
+set_global_assignment -library "MPSoC" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/MPSoC_addr_router_003.sv"]
+set_global_assignment -library "MPSoC" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/MPSoC_addr_router_002.sv"]
+set_global_assignment -library "MPSoC" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/MPSoC_addr_router_001.sv"]
+set_global_assignment -library "MPSoC" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/MPSoC_addr_router.sv"]
+set_global_assignment -library "MPSoC" -name VERILOG_FILE [file join $::quartus(qip_path) "submodules/altera_avalon_sc_fifo.v"]
+set_global_assignment -library "MPSoC" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/altera_merlin_slave_agent.sv"]
+set_global_assignment -library "MPSoC" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/altera_merlin_burst_uncompressor.sv"]
+set_global_assignment -library "MPSoC" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/altera_merlin_master_agent.sv"]
+set_global_assignment -library "MPSoC" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/altera_merlin_slave_translator.sv"]
+set_global_assignment -library "MPSoC" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/altera_merlin_master_translator.sv"]
+set_global_assignment -library "MPSoC" -name VERILOG_FILE [file join $::quartus(qip_path) "submodules/MPSoC_fifo_0.v"]
+set_global_assignment -library "MPSoC" -name SOURCE_FILE [file join $::quartus(qip_path) "submodules/MPSoC_onchip_memdata1.hex"]
+set_global_assignment -library "MPSoC" -name VERILOG_FILE [file join $::quartus(qip_path) "submodules/MPSoC_onchip_memdata1.v"]
+set_global_assignment -library "MPSoC" -name VERILOG_FILE [file join $::quartus(qip_path) "submodules/MPSoC_sysid.v"]
+set_global_assignment -library "MPSoC" -name SOURCE_FILE [file join $::quartus(qip_path) "submodules/MPSoC_onchip_memdata0.hex"]
+set_global_assignment -library "MPSoC" -name VERILOG_FILE [file join $::quartus(qip_path) "submodules/MPSoC_onchip_memdata0.v"]
+set_global_assignment -library "MPSoC" -name SOURCE_FILE [file join $::quartus(qip_path) "submodules/MPSoC_onchip_mem1.hex"]
+set_global_assignment -library "MPSoC" -name VERILOG_FILE [file join $::quartus(qip_path) "submodules/MPSoC_onchip_mem1.v"]
+set_global_assignment -library "MPSoC" -name SOURCE_FILE [file join $::quartus(qip_path) "submodules/MPSoC_onchip_mem0.hex"]
+set_global_assignment -library "MPSoC" -name VERILOG_FILE [file join $::quartus(qip_path) "submodules/MPSoC_onchip_mem0.v"]
+set_global_assignment -library "MPSoC" -name VERILOG_FILE [file join $::quartus(qip_path) "submodules/MPSoC_jtag_uart0.v"]
+set_global_assignment -library "MPSoC" -name SOURCE_FILE [file join $::quartus(qip_path) "submodules/MPSoC_jtag_uart0_input_mutex.dat"]
+set_global_assignment -library "MPSoC" -name SOURCE_FILE [file join $::quartus(qip_path) "submodules/MPSoC_jtag_uart0_input_stream.dat"]
+set_global_assignment -library "MPSoC" -name SOURCE_FILE [file join $::quartus(qip_path) "submodules/MPSoC_jtag_uart0_output_stream.dat"]
+set_global_assignment -library "MPSoC" -name VERILOG_FILE [file join $::quartus(qip_path) "submodules/MPSoC_timer0.v"]
+set_global_assignment -library "MPSoC" -name SOURCE_FILE [file join $::quartus(qip_path) "submodules/MPSoC_cpu1.ocp"]
+set_global_assignment -library "MPSoC" -name SDC_FILE [file join $::quartus(qip_path) "submodules/MPSoC_cpu1.sdc"]
+set_global_assignment -library "MPSoC" -name VERILOG_FILE [file join $::quartus(qip_path) "submodules/MPSoC_cpu1.v"]
+set_global_assignment -library "MPSoC" -name SOURCE_FILE [file join $::quartus(qip_path) "submodules/MPSoC_cpu1_ic_tag_ram.mif"]
+set_global_assignment -library "MPSoC" -name VERILOG_FILE [file join $::quartus(qip_path) "submodules/MPSoC_cpu1_jtag_debug_module_sysclk.v"]
+set_global_assignment -library "MPSoC" -name VERILOG_FILE [file join $::quartus(qip_path) "submodules/MPSoC_cpu1_jtag_debug_module_tck.v"]
+set_global_assignment -library "MPSoC" -name VERILOG_FILE [file join $::quartus(qip_path) "submodules/MPSoC_cpu1_jtag_debug_module_wrapper.v"]
+set_global_assignment -library "MPSoC" -name SOURCE_FILE [file join $::quartus(qip_path) "submodules/MPSoC_cpu1_ociram_default_contents.mif"]
+set_global_assignment -library "MPSoC" -name VERILOG_FILE [file join $::quartus(qip_path) "submodules/MPSoC_cpu1_oci_test_bench.v"]
+set_global_assignment -library "MPSoC" -name SOURCE_FILE [file join $::quartus(qip_path) "submodules/MPSoC_cpu1_rf_ram_a.mif"]
+set_global_assignment -library "MPSoC" -name SOURCE_FILE [file join $::quartus(qip_path) "submodules/MPSoC_cpu1_rf_ram_b.mif"]
+set_global_assignment -library "MPSoC" -name VERILOG_FILE [file join $::quartus(qip_path) "submodules/MPSoC_cpu1_test_bench.v"]
+set_global_assignment -library "MPSoC" -name SOURCE_FILE [file join $::quartus(qip_path) "submodules/MPSoC_cpu0.ocp"]
+set_global_assignment -library "MPSoC" -name SDC_FILE [file join $::quartus(qip_path) "submodules/MPSoC_cpu0.sdc"]
+set_global_assignment -library "MPSoC" -name VERILOG_FILE [file join $::quartus(qip_path) "submodules/MPSoC_cpu0.v"]
+set_global_assignment -library "MPSoC" -name SOURCE_FILE [file join $::quartus(qip_path) "submodules/MPSoC_cpu0_ic_tag_ram.mif"]
+set_global_assignment -library "MPSoC" -name VERILOG_FILE [file join $::quartus(qip_path) "submodules/MPSoC_cpu0_jtag_debug_module_sysclk.v"]
+set_global_assignment -library "MPSoC" -name VERILOG_FILE [file join $::quartus(qip_path) "submodules/MPSoC_cpu0_jtag_debug_module_tck.v"]
+set_global_assignment -library "MPSoC" -name VERILOG_FILE [file join $::quartus(qip_path) "submodules/MPSoC_cpu0_jtag_debug_module_wrapper.v"]
+set_global_assignment -library "MPSoC" -name SOURCE_FILE [file join $::quartus(qip_path) "submodules/MPSoC_cpu0_ociram_default_contents.mif"]
+set_global_assignment -library "MPSoC" -name VERILOG_FILE [file join $::quartus(qip_path) "submodules/MPSoC_cpu0_oci_test_bench.v"]
+set_global_assignment -library "MPSoC" -name SOURCE_FILE [file join $::quartus(qip_path) "submodules/MPSoC_cpu0_rf_ram_a.mif"]
+set_global_assignment -library "MPSoC" -name SOURCE_FILE [file join $::quartus(qip_path) "submodules/MPSoC_cpu0_rf_ram_b.mif"]
+set_global_assignment -library "MPSoC" -name VERILOG_FILE [file join $::quartus(qip_path) "submodules/MPSoC_cpu0_test_bench.v"]
+
+set_global_assignment -entity "MPSoC_irq_mapper_001" -library "MPSoC" -name IP_TOOL_NAME "altera_irq_mapper"
+set_global_assignment -entity "MPSoC_irq_mapper_001" -library "MPSoC" -name IP_TOOL_VERSION "12.1"
+set_global_assignment -entity "MPSoC_irq_mapper_001" -library "MPSoC" -name IP_TOOL_ENV "qsys"
+set_global_assignment -entity "MPSoC_irq_mapper" -library "MPSoC" -name IP_TOOL_NAME "altera_irq_mapper"
+set_global_assignment -entity "MPSoC_irq_mapper" -library "MPSoC" -name IP_TOOL_VERSION "12.1"
+set_global_assignment -entity "MPSoC_irq_mapper" -library "MPSoC" -name IP_TOOL_ENV "qsys"
+set_global_assignment -entity "MPSoC_rsp_xbar_mux_001" -library "MPSoC" -name IP_TOOL_NAME "altera_merlin_multiplexer"
+set_global_assignment -entity "MPSoC_rsp_xbar_mux_001" -library "MPSoC" -name IP_TOOL_VERSION "12.1"
+set_global_assignment -entity "MPSoC_rsp_xbar_mux_001" -library "MPSoC" -name IP_TOOL_ENV "qsys"
+set_global_assignment -entity "MPSoC_rsp_xbar_mux" -library "MPSoC" -name IP_TOOL_NAME "altera_merlin_multiplexer"
+set_global_assignment -entity "MPSoC_rsp_xbar_mux" -library "MPSoC" -name IP_TOOL_VERSION "12.1"
+set_global_assignment -entity "MPSoC_rsp_xbar_mux" -library "MPSoC" -name IP_TOOL_ENV "qsys"
+set_global_assignment -entity "MPSoC_rsp_xbar_demux_006" -library "MPSoC" -name IP_TOOL_NAME "altera_merlin_demultiplexer"
+set_global_assignment -entity "MPSoC_rsp_xbar_demux_006" -library "MPSoC" -name IP_TOOL_VERSION "12.1"
+set_global_assignment -entity "MPSoC_rsp_xbar_demux_006" -library "MPSoC" -name IP_TOOL_ENV "qsys"
+set_global_assignment -entity "MPSoC_rsp_xbar_demux_004" -library "MPSoC" -name IP_TOOL_NAME "altera_merlin_demultiplexer"
+set_global_assignment -entity "MPSoC_rsp_xbar_demux_004" -library "MPSoC" -name IP_TOOL_VERSION "12.1"
+set_global_assignment -entity "MPSoC_rsp_xbar_demux_004" -library "MPSoC" -name IP_TOOL_ENV "qsys"
+set_global_assignment -entity "MPSoC_rsp_xbar_demux" -library "MPSoC" -name IP_TOOL_NAME "altera_merlin_demultiplexer"
+set_global_assignment -entity "MPSoC_rsp_xbar_demux" -library "MPSoC" -name IP_TOOL_VERSION "12.1"
+set_global_assignment -entity "MPSoC_rsp_xbar_demux" -library "MPSoC" -name IP_TOOL_ENV "qsys"
+set_global_assignment -entity "MPSoC_cmd_xbar_mux_004" -library "MPSoC" -name IP_TOOL_NAME "altera_merlin_multiplexer"
+set_global_assignment -entity "MPSoC_cmd_xbar_mux_004" -library "MPSoC" -name IP_TOOL_VERSION "12.1"
+set_global_assignment -entity "MPSoC_cmd_xbar_mux_004" -library "MPSoC" -name IP_TOOL_ENV "qsys"
+set_global_assignment -entity "MPSoC_cmd_xbar_mux" -library "MPSoC" -name IP_TOOL_NAME "altera_merlin_multiplexer"
+set_global_assignment -entity "MPSoC_cmd_xbar_mux" -library "MPSoC" -name IP_TOOL_VERSION "12.1"
+set_global_assignment -entity "MPSoC_cmd_xbar_mux" -library "MPSoC" -name IP_TOOL_ENV "qsys"
+set_global_assignment -entity "MPSoC_cmd_xbar_demux_001" -library "MPSoC" -name IP_TOOL_NAME "altera_merlin_demultiplexer"
+set_global_assignment -entity "MPSoC_cmd_xbar_demux_001" -library "MPSoC" -name IP_TOOL_VERSION "12.1"
+set_global_assignment -entity "MPSoC_cmd_xbar_demux_001" -library "MPSoC" -name IP_TOOL_ENV "qsys"
+set_global_assignment -entity "MPSoC_cmd_xbar_demux" -library "MPSoC" -name IP_TOOL_NAME "altera_merlin_demultiplexer"
+set_global_assignment -entity "MPSoC_cmd_xbar_demux" -library "MPSoC" -name IP_TOOL_VERSION "12.1"
+set_global_assignment -entity "MPSoC_cmd_xbar_demux" -library "MPSoC" -name IP_TOOL_ENV "qsys"
+set_global_assignment -entity "altera_reset_controller" -library "MPSoC" -name IP_TOOL_NAME "altera_reset_controller"
+set_global_assignment -entity "altera_reset_controller" -library "MPSoC" -name IP_TOOL_VERSION "12.1"
+set_global_assignment -entity "altera_reset_controller" -library "MPSoC" -name IP_TOOL_ENV "qsys"
+set_global_assignment -entity "altera_merlin_traffic_limiter" -library "MPSoC" -name IP_TOOL_NAME "altera_merlin_traffic_limiter"
+set_global_assignment -entity "altera_merlin_traffic_limiter" -library "MPSoC" -name IP_TOOL_VERSION "12.1"
+set_global_assignment -entity "altera_merlin_traffic_limiter" -library "MPSoC" -name IP_TOOL_ENV "qsys"
+set_global_assignment -entity "MPSoC_id_router_012" -library "MPSoC" -name IP_TOOL_NAME "altera_merlin_router"
+set_global_assignment -entity "MPSoC_id_router_012" -library "MPSoC" -name IP_TOOL_VERSION "12.1"
+set_global_assignment -entity "MPSoC_id_router_012" -library "MPSoC" -name IP_TOOL_ENV "qsys"
+set_global_assignment -entity "MPSoC_id_router_008" -library "MPSoC" -name IP_TOOL_NAME "altera_merlin_router"
+set_global_assignment -entity "MPSoC_id_router_008" -library "MPSoC" -name IP_TOOL_VERSION "12.1"
+set_global_assignment -entity "MPSoC_id_router_008" -library "MPSoC" -name IP_TOOL_ENV "qsys"
+set_global_assignment -entity "MPSoC_id_router_006" -library "MPSoC" -name IP_TOOL_NAME "altera_merlin_router"
+set_global_assignment -entity "MPSoC_id_router_006" -library "MPSoC" -name IP_TOOL_VERSION "12.1"
+set_global_assignment -entity "MPSoC_id_router_006" -library "MPSoC" -name IP_TOOL_ENV "qsys"
+set_global_assignment -entity "MPSoC_id_router_005" -library "MPSoC" -name IP_TOOL_NAME "altera_merlin_router"
+set_global_assignment -entity "MPSoC_id_router_005" -library "MPSoC" -name IP_TOOL_VERSION "12.1"
+set_global_assignment -entity "MPSoC_id_router_005" -library "MPSoC" -name IP_TOOL_ENV "qsys"
+set_global_assignment -entity "MPSoC_id_router_004" -library "MPSoC" -name IP_TOOL_NAME "altera_merlin_router"
+set_global_assignment -entity "MPSoC_id_router_004" -library "MPSoC" -name IP_TOOL_VERSION "12.1"
+set_global_assignment -entity "MPSoC_id_router_004" -library "MPSoC" -name IP_TOOL_ENV "qsys"
+set_global_assignment -entity "MPSoC_id_router" -library "MPSoC" -name IP_TOOL_NAME "altera_merlin_router"
+set_global_assignment -entity "MPSoC_id_router" -library "MPSoC" -name IP_TOOL_VERSION "12.1"
+set_global_assignment -entity "MPSoC_id_router" -library "MPSoC" -name IP_TOOL_ENV "qsys"
+set_global_assignment -entity "MPSoC_addr_router_003" -library "MPSoC" -name IP_TOOL_NAME "altera_merlin_router"
+set_global_assignment -entity "MPSoC_addr_router_003" -library "MPSoC" -name IP_TOOL_VERSION "12.1"
+set_global_assignment -entity "MPSoC_addr_router_003" -library "MPSoC" -name IP_TOOL_ENV "qsys"
+set_global_assignment -entity "MPSoC_addr_router_002" -library "MPSoC" -name IP_TOOL_NAME "altera_merlin_router"
+set_global_assignment -entity "MPSoC_addr_router_002" -library "MPSoC" -name IP_TOOL_VERSION "12.1"
+set_global_assignment -entity "MPSoC_addr_router_002" -library "MPSoC" -name IP_TOOL_ENV "qsys"
+set_global_assignment -entity "MPSoC_addr_router_001" -library "MPSoC" -name IP_TOOL_NAME "altera_merlin_router"
+set_global_assignment -entity "MPSoC_addr_router_001" -library "MPSoC" -name IP_TOOL_VERSION "12.1"
+set_global_assignment -entity "MPSoC_addr_router_001" -library "MPSoC" -name IP_TOOL_ENV "qsys"
+set_global_assignment -entity "MPSoC_addr_router" -library "MPSoC" -name IP_TOOL_NAME "altera_merlin_router"
+set_global_assignment -entity "MPSoC_addr_router" -library "MPSoC" -name IP_TOOL_VERSION "12.1"
+set_global_assignment -entity "MPSoC_addr_router" -library "MPSoC" -name IP_TOOL_ENV "qsys"
+set_global_assignment -entity "altera_avalon_sc_fifo" -library "MPSoC" -name IP_TOOL_NAME "altera_avalon_sc_fifo"
+set_global_assignment -entity "altera_avalon_sc_fifo" -library "MPSoC" -name IP_TOOL_VERSION "12.1"
+set_global_assignment -entity "altera_avalon_sc_fifo" -library "MPSoC" -name IP_TOOL_ENV "qsys"
+set_global_assignment -entity "altera_merlin_slave_agent" -library "MPSoC" -name IP_TOOL_NAME "altera_merlin_slave_agent"
+set_global_assignment -entity "altera_merlin_slave_agent" -library "MPSoC" -name IP_TOOL_VERSION "12.1"
+set_global_assignment -entity "altera_merlin_slave_agent" -library "MPSoC" -name IP_TOOL_ENV "qsys"
+set_global_assignment -entity "altera_merlin_master_agent" -library "MPSoC" -name IP_TOOL_NAME "altera_merlin_master_agent"
+set_global_assignment -entity "altera_merlin_master_agent" -library "MPSoC" -name IP_TOOL_VERSION "12.1"
+set_global_assignment -entity "altera_merlin_master_agent" -library "MPSoC" -name IP_TOOL_ENV "qsys"
+set_global_assignment -entity "altera_merlin_slave_translator" -library "MPSoC" -name IP_TOOL_NAME "altera_merlin_slave_translator"
+set_global_assignment -entity "altera_merlin_slave_translator" -library "MPSoC" -name IP_TOOL_VERSION "12.1"
+set_global_assignment -entity "altera_merlin_slave_translator" -library "MPSoC" -name IP_TOOL_ENV "qsys"
+set_global_assignment -entity "altera_merlin_master_translator" -library "MPSoC" -name IP_TOOL_NAME "altera_merlin_master_translator"
+set_global_assignment -entity "altera_merlin_master_translator" -library "MPSoC" -name IP_TOOL_VERSION "12.1"
+set_global_assignment -entity "altera_merlin_master_translator" -library "MPSoC" -name IP_TOOL_ENV "qsys"
+set_global_assignment -entity "MPSoC_fifo_0" -library "MPSoC" -name IP_TOOL_NAME "altera_avalon_fifo"
+set_global_assignment -entity "MPSoC_fifo_0" -library "MPSoC" -name IP_TOOL_VERSION "12.1"
+set_global_assignment -entity "MPSoC_fifo_0" -library "MPSoC" -name IP_TOOL_ENV "qsys"
+set_global_assignment -entity "MPSoC_onchip_memdata1" -library "MPSoC" -name IP_TOOL_NAME "altera_avalon_onchip_memory2"
+set_global_assignment -entity "MPSoC_onchip_memdata1" -library "MPSoC" -name IP_TOOL_VERSION "12.1"
+set_global_assignment -entity "MPSoC_onchip_memdata1" -library "MPSoC" -name IP_TOOL_ENV "qsys"
+set_global_assignment -entity "MPSoC_sysid" -library "MPSoC" -name IP_TOOL_NAME "altera_avalon_sysid_qsys"
+set_global_assignment -entity "MPSoC_sysid" -library "MPSoC" -name IP_TOOL_VERSION "12.1"
+set_global_assignment -entity "MPSoC_sysid" -library "MPSoC" -name IP_TOOL_ENV "qsys"
+set_global_assignment -entity "MPSoC_onchip_memdata0" -library "MPSoC" -name IP_TOOL_NAME "altera_avalon_onchip_memory2"
+set_global_assignment -entity "MPSoC_onchip_memdata0" -library "MPSoC" -name IP_TOOL_VERSION "12.1"
+set_global_assignment -entity "MPSoC_onchip_memdata0" -library "MPSoC" -name IP_TOOL_ENV "qsys"
+set_global_assignment -entity "MPSoC_onchip_mem1" -library "MPSoC" -name IP_TOOL_NAME "altera_avalon_onchip_memory2"
+set_global_assignment -entity "MPSoC_onchip_mem1" -library "MPSoC" -name IP_TOOL_VERSION "12.1"
+set_global_assignment -entity "MPSoC_onchip_mem1" -library "MPSoC" -name IP_TOOL_ENV "qsys"
+set_global_assignment -entity "MPSoC_onchip_mem0" -library "MPSoC" -name IP_TOOL_NAME "altera_avalon_onchip_memory2"
+set_global_assignment -entity "MPSoC_onchip_mem0" -library "MPSoC" -name IP_TOOL_VERSION "12.1"
+set_global_assignment -entity "MPSoC_onchip_mem0" -library "MPSoC" -name IP_TOOL_ENV "qsys"
+set_global_assignment -entity "MPSoC_jtag_uart0" -library "MPSoC" -name IP_TOOL_NAME "altera_avalon_jtag_uart"
+set_global_assignment -entity "MPSoC_jtag_uart0" -library "MPSoC" -name IP_TOOL_VERSION "12.1"
+set_global_assignment -entity "MPSoC_jtag_uart0" -library "MPSoC" -name IP_TOOL_ENV "qsys"
+set_global_assignment -entity "MPSoC_timer0" -library "MPSoC" -name IP_TOOL_NAME "altera_avalon_timer"
+set_global_assignment -entity "MPSoC_timer0" -library "MPSoC" -name IP_TOOL_VERSION "12.1"
+set_global_assignment -entity "MPSoC_timer0" -library "MPSoC" -name IP_TOOL_ENV "qsys"
+set_global_assignment -entity "MPSoC_cpu1" -library "MPSoC" -name IP_TOOL_NAME "altera_nios2_qsys"
+set_global_assignment -entity "MPSoC_cpu1" -library "MPSoC" -name IP_TOOL_VERSION "12.1"
+set_global_assignment -entity "MPSoC_cpu1" -library "MPSoC" -name IP_TOOL_ENV "qsys"
+set_global_assignment -entity "MPSoC_cpu0" -library "MPSoC" -name IP_TOOL_NAME "altera_nios2_qsys"
+set_global_assignment -entity "MPSoC_cpu0" -library "MPSoC" -name IP_TOOL_VERSION "12.1"
+set_global_assignment -entity "MPSoC_cpu0" -library "MPSoC" -name IP_TOOL_ENV "qsys"

@@ -1,0 +1,280 @@
+!SESSION 2022-04-03 11:34:38.656 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.6.0_23
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-04-03 11:36:10.388
+!MESSAGE Indexed 'consumer_bsp' (82 sources, 63 headers) in 1.84 sec: 1,056 declarations; 2,617 references; 117 unresolved inclusions; 5 syntax errors; 219 unresolved names (5.63%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-04-03 11:36:14.281
+!MESSAGE Indexed 'consumer' (0 sources, 13 headers) in 0.04 sec: 0 declarations; 0 references; 13 unresolved inclusions; 0 syntax errors; 0 unresolved names (0.00%)
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-04-03 19:20:12.186
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=1 --stop --sidp=0x31060 --id=0x0 --timestamp=1648807121]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-04-03 19:20:17.552
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=1 --go --sidp=0x31060 --id=0x0 --timestamp=1648807121 /cygdrive/e/Semester_06/CO503_Advanced_Embedded_Systems/Practicals/Practical_3_MPSoC_Design/MPSoC2/MPSoC/software1/consumer/consumer.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-04-03 19:28:58.140
+!MESSAGE Terminated Launch with connection: 11USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-04-03 19:28:59.878
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=1 --stop --sidp=0x31060 --id=0x0 --timestamp=1648807121]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-04-03 19:29:05.172
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=1 --go --sidp=0x31060 --id=0x0 --timestamp=1648807121 /cygdrive/e/Semester_06/CO503_Advanced_Embedded_Systems/Practicals/Practical_3_MPSoC_Design/MPSoC2/MPSoC/software1/consumer/consumer.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-04-03 19:29:46.407
+!MESSAGE Terminated Launch with connection: 11USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-04-03 19:29:47.932
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=1 --stop --sidp=0x31060 --id=0x0 --timestamp=1648807121]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-04-03 19:29:53.052
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=1 --go --sidp=0x31060 --id=0x0 --timestamp=1648807121 /cygdrive/e/Semester_06/CO503_Advanced_Embedded_Systems/Practicals/Practical_3_MPSoC_Design/MPSoC2/MPSoC/software1/consumer/consumer.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-04-03 19:30:32.229
+!MESSAGE Terminated Launch with connection: 11USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-04-03 19:30:33.469
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=1 --stop --sidp=0x31060 --id=0x0 --timestamp=1648807121]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-04-03 19:30:38.552
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=1 --go --sidp=0x31060 --id=0x0 --timestamp=1648807121 /cygdrive/e/Semester_06/CO503_Advanced_Embedded_Systems/Practicals/Practical_3_MPSoC_Design/MPSoC2/MPSoC/software1/consumer/consumer.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-04-03 19:31:31.293
+!MESSAGE Terminated Launch with connection: 11USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-04-03 19:31:32.978
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=1 --stop --sidp=0x31060 --id=0x0 --timestamp=1648807121]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-04-03 19:31:36.522
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=1 --go --sidp=0x31060 --id=0x0 --timestamp=1648807121 /cygdrive/e/Semester_06/CO503_Advanced_Embedded_Systems/Practicals/Practical_3_MPSoC_Design/MPSoC2/MPSoC/software1/consumer/consumer.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-04-03 19:32:11.564
+!MESSAGE Terminated Launch with connection: 11USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-04-03 19:32:13.182
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=1 --stop --sidp=0x31060 --id=0x0 --timestamp=1648807121]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-04-03 19:32:18.191
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=1 --go --sidp=0x31060 --id=0x0 --timestamp=1648807121 /cygdrive/e/Semester_06/CO503_Advanced_Embedded_Systems/Practicals/Practical_3_MPSoC_Design/MPSoC2/MPSoC/software1/consumer/consumer.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-04-03 19:33:06.845
+!MESSAGE Terminated Launch with connection: 11USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-04-03 19:33:08.095
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=1 --stop --sidp=0x31060 --id=0x0 --timestamp=1648807121]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-04-03 19:33:11.424
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=1 --go --sidp=0x31060 --id=0x0 --timestamp=1648807121 /cygdrive/e/Semester_06/CO503_Advanced_Embedded_Systems/Practicals/Practical_3_MPSoC_Design/MPSoC2/MPSoC/software1/consumer/consumer.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-04-03 19:34:44.544
+!MESSAGE Terminated Launch with connection: 11USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-04-03 19:34:45.930
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=1 --stop --sidp=0x31060 --id=0x0 --timestamp=1648807121]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-04-03 19:34:51.105
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=1 --go --sidp=0x31060 --id=0x0 --timestamp=1648807121 /cygdrive/e/Semester_06/CO503_Advanced_Embedded_Systems/Practicals/Practical_3_MPSoC_Design/MPSoC2/MPSoC/software1/consumer/consumer.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-04-03 19:35:43.728
+!MESSAGE Terminated Launch with connection: 11USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-04-03 19:35:44.855
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=1 --stop --sidp=0x31060 --id=0x0 --timestamp=1648807121]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-04-03 19:35:49.841
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=1 --go --sidp=0x31060 --id=0x0 --timestamp=1648807121 /cygdrive/e/Semester_06/CO503_Advanced_Embedded_Systems/Practicals/Practical_3_MPSoC_Design/MPSoC2/MPSoC/software1/consumer/consumer.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-04-03 21:06:05.247
+!MESSAGE Terminated Launch with connection: 11USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2022-04-03 21:06:11.616
+!MESSAGE Unable to validate connection settings.
+!STACK 0
+java.lang.Exception: Connected system ID hash not found on target at expected base address.
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.assertTrue(SystemConsoleConnectionModel.java:645)
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateSystemId(SystemConsoleConnectionModel.java:589)
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateConnectionSettings(SystemConsoleConnectionModel.java:511)
+	at com.altera.sbtgui.launch.hardware.AbstractNios2CLaunchDelegate.launch(AbstractNios2CLaunchDelegate.java:115)
+	at com.altera.sbtgui.launch.hardware.Nios2HardwareLaunchDelegate.launch(Nios2HardwareLaunchDelegate.java:98)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:854)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:937)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1141)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY com.altera.sbtgui.launch 4 0 2022-04-03 21:06:11.621
+!MESSAGE Unable to validate connection settings.
+!STACK 0
+java.lang.Exception: Connected system ID hash not found on target at expected base address.
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.assertTrue(SystemConsoleConnectionModel.java:645)
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateSystemId(SystemConsoleConnectionModel.java:589)
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateConnectionSettings(SystemConsoleConnectionModel.java:511)
+	at com.altera.sbtgui.launch.hardware.AbstractNios2CLaunchDelegate.launch(AbstractNios2CLaunchDelegate.java:115)
+	at com.altera.sbtgui.launch.hardware.Nios2HardwareLaunchDelegate.launch(Nios2HardwareLaunchDelegate.java:98)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:854)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:937)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1141)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-04-03 21:11:30.770
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=1 --stop --accept-bad-sysid --sidp=0x31060]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-04-03 21:11:32.791
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=1 --go --accept-bad-sysid --sidp=0x31060]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-04-03 21:12:33.579
+!MESSAGE Terminated Launch with connection: 11USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-04-03 21:12:34.039
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=1 --stop --accept-bad-sysid --sidp=0x31060]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-04-03 21:12:36.070
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=1 --go --accept-bad-sysid --sidp=0x31060]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-04-03 21:13:02.986
+!MESSAGE Terminated Launch with connection: 11USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-04-03 21:13:03.510
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=1 --stop --accept-bad-sysid --sidp=0x31060]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-04-03 21:13:05.530
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=1 --go --accept-bad-sysid --sidp=0x31060]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-04-03 21:13:36.000
+!MESSAGE Terminated Launch with connection: 11USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-04-03 21:13:36.483
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=1 --stop --accept-bad-sysid --sidp=0x31060]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-04-03 21:13:38.503
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=1 --go --accept-bad-sysid --sidp=0x31060]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-04-03 21:14:13.450
+!MESSAGE Terminated Launch with connection: 11USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-04-03 21:14:13.921
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=1 --stop --accept-bad-sysid --sidp=0x31060]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-04-03 21:14:15.928
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=1 --go --accept-bad-sysid --sidp=0x31060]
+!SESSION 2022-04-05 23:12:21.244 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.6.0_23
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+
+!ENTRY org.eclipse.ui 4 4 2022-04-05 23:12:49.766
+!MESSAGE Could not create view: 'org.eclipse.ui.internal.introview'.
+
+!ENTRY org.eclipse.ui 4 0 2022-04-05 23:12:52.726
+!MESSAGE Problems occurred restoring workbench.
+!SUBENTRY 1 unknown 0 0 2022-04-05 23:12:52.726
+!MESSAGE OK
+!SUBENTRY 1 unknown 0 0 2022-04-05 23:12:52.727
+!MESSAGE OK
+!SUBENTRY 1 unknown 0 0 2022-04-05 23:12:52.727
+!MESSAGE OK
+!SUBENTRY 1 unknown 0 0 2022-04-05 23:12:52.727
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.ui 4 0 2022-04-05 23:12:52.727
+!MESSAGE Unable to restore perspective: Workspace - Nios II.
+!SUBENTRY 2 org.eclipse.ui 0 0 2022-04-05 23:12:52.727
+!MESSAGE Problems occurred restoring perspective.
+!SUBENTRY 3 org.eclipse.ui 0 0 2022-04-05 23:12:52.727
+!MESSAGE 
+!SUBENTRY 2 unknown 0 0 2022-04-05 23:12:52.727
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2022-04-05 23:12:52.727
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2022-04-05 23:12:52.727
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2022-04-05 23:12:52.728
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2022-04-05 23:12:52.728
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2022-04-05 23:12:52.728
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2022-04-05 23:12:52.728
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2022-04-05 23:12:52.728
+!MESSAGE OK
+!SUBENTRY 2 org.eclipse.ui 4 0 2022-04-05 23:12:52.728
+!MESSAGE Could not find view: org.eclipse.ui.internal.introview
+!SUBENTRY 1 unknown 0 0 2022-04-05 23:12:52.728
+!MESSAGE OK
+!SESSION 2022-04-07 08:41:11.108 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.6.0_23
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-04-07 08:51:11.548
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=1 --stop --accept-bad-sysid --sidp=0x31060]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-04-07 08:51:13.697
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=1 --go --accept-bad-sysid --sidp=0x31060]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-04-07 08:52:06.535
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=1 --stop --accept-bad-sysid --sidp=0x31060]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-04-07 08:52:08.531
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=1 --go --accept-bad-sysid --sidp=0x31060]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-04-07 08:53:03.905
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=1 --stop --accept-bad-sysid --sidp=0x31060]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-04-07 08:53:05.935
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=1 --go --accept-bad-sysid --sidp=0x31060]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-04-07 08:54:12.111
+!MESSAGE Terminated Launch with connection: 11USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-04-07 08:54:12.736
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=1 --stop --accept-bad-sysid --sidp=0x31060]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-04-07 08:54:14.861
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=1 --go --accept-bad-sysid --sidp=0x31060]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-04-07 08:54:43.116
+!MESSAGE Terminated Launch with connection: 11USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-04-07 08:54:43.800
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=1 --stop --accept-bad-sysid --sidp=0x31060]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-04-07 08:54:45.824
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=1 --go --accept-bad-sysid --sidp=0x31060]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-04-07 08:55:34.577
+!MESSAGE Terminated Launch with connection: 11USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-04-07 08:55:35.184
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=1 --stop --accept-bad-sysid --sidp=0x31060]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-04-07 08:55:37.289
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=1 --go --accept-bad-sysid --sidp=0x31060]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-04-07 08:56:16.280
+!MESSAGE Terminated Launch with connection: 11USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-04-07 08:56:16.911
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=1 --stop --accept-bad-sysid --sidp=0x31060]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-04-07 08:56:18.949
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=1 --go --accept-bad-sysid --sidp=0x31060]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-04-07 09:13:51.240
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=1 --stop --accept-bad-sysid --sidp=0x31060]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-04-07 09:13:53.378
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=1 --go --accept-bad-sysid --sidp=0x31060]

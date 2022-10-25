@@ -1,0 +1,55 @@
+/*
+ * 	FIFO queue for shared memory communication between niosII processors
+ *
+ *  	DATE		: 18-08-2016
+ *      AUTHOR	: Isuru Nawinne
+*
+*	Structure of the FIFO:
+*	___________________________________________________________________________
+*	| 	full	| 	empty	| 	count		|	|	|	|	|	|	|	|	|
+*	| 	?	| 	?		| 	?		|	|	|	|	|	|	|	|	|
+*	___________________________________________________________________________
+*/
+
+
+#include "FIFO_1.h"
+
+#define FIFO_CONTROL_BASE 0x00031020
+#define FIFO_WRITE_ADDRESS 0x00031074
+#define FIFO_READ_ADDRESS 0x0003104c
+#define EMPTY 0
+#define FULL 16
+#define ALMOST_EMPTY 2
+#define ALMOST_FULL FULL - 5
+
+
+void WRITE_FIFO_1(int *buffer)
+{
+	// Wait if the fifo is full
+		while(altera_avalon_fifo_read_status(FIFO_CONTROL_BASE,0)==0){}
+
+		// Write the data to FIFO
+		altera_avalon_fifo_write_fifo(FIFO_WRITE_ADDRESS, FIFO_CONTROL_BASE, buffer);
+
+		// Reset the empty flag if FIFO now has 1 enrty
+}
+
+
+void READ_FIFO_1(int *buffer)
+{
+	while(altera_avalon_fifo_read_status(FIFO_CONTROL_BASE,0)==0){}
+		// Read the data
+	altera_avalon_read_fifo(FIFO_READ_ADDRESS,FIFO_CONTROL_BASE, buffer);
+
+		// Update the "full?" and "empty?" flags accordingly
+		// Set the empty flag if FIFO is now empty
+		// Reset the full flag if FIFO now has 1 enrty less than capacity
+}
+
+
+
+//Initialization
+void FIFO_1_INIT()
+{
+	altera_avalon_fifo_init(FIFO_CONTROL_BASE, 0, ALMOST_EMPTY, ALMOST_FULL);// The fifo is empty at the start
+}
